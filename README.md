@@ -5,3 +5,8 @@ Welcome to my portfolio website, here you will find information about:
 * My skills
 * Professional experiences
 * Education
+
+Used colors
+*   favicon: #141
+*   background: #001704 
+*   foreground: #ededed
