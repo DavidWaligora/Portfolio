@@ -5,25 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UI/UX Resume and Portfolio</title>
-    <link rel="stylesheet" href="utils/style.css">
+    <link rel="stylesheet" href="style.css">
     <style>
-        /* Inter Font from Goole Fonts */
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-
-        /* VARIABLES */
-
+        @import url('https://fonts.googleapis.com/css2?family=National+Park:wght@200..800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
     </style>
 </head>
 
 <body>
     <div id="page">
 
-        <header>
+        <header class="header">
             <div class="logo">
                 <a href="/">David Waligora</a>
             </div>
             <nav>
                 <ul>
+                    <li><a href="#skills">Skills</a></li>
                     <li><a href="#experience">Experience</a></li>
                     <li><a href="#portfolio">Recent Work</a></li>
                     <li><a href="#contact">Contact</a></li>
@@ -34,106 +31,22 @@
         <main>
             <div id="about">
                 <h1>
-                    Hi, I'm David. Currently, 
+                    Hi, I'm David.
                 </h1>
-                <p class="small">I'm based in Lommel.</p>
+                <p class="small">Currently, based in Lommel.</p>
                 <p>
                     Software Developer specializing in Front-End and Back-End. 
                     
+                    <br/> 
                     <br/> 
                     I enjoy building custom websites and web applications with a focus on React or .NET.
                     I’m always ready to explore new technologies and solutions.
                 </p>
             </div>
 
-            <section id="skills">
-                
-                <h2>Skills</h2>
-                <div class="skill card">
-                    <h3>
-                        Graphic Design &amp; Creative Direction
-                    </h3>
-                    <p>
-                        &bull; Building Responsive UI/UX Design for Web and Mobile. Creating Brand Strategy and Design
-                        Systems
-                        <br>
-                        &bull; Wireframing User Flows and delivering High-fidelity Prototypes for Developer Hand-off
-                    </p>
-                </div>
-
-                <div class="skill card">
-                    <h3>
-                        Front-End Development
-                    </h3>
-                    <p>
-                        &bull; Proficient in HTML, CSS &amp; JavaScript with
-                        3yrs experience in React, Node.js & Express.
-                        <br>
-                        &bull; Familiar with User Testing &amp; Conversion Optimization Tools like Optimizely &amp; VWO.
-                    </p>
-                </div>
-
-                <div class="skill card">
-                    <h3>
-                        Back-End Development
-                    </h3>
-                    <p>
-                        &bull; Familiar with Git Workflow, Docker and CI/CD
-                        <br>
-                        &bull; Experience with MongoDB, MySQL, PostgreSQL databse setup and management
-                        <br>
-                        &bull; Building RESTful APIs and GraphQL based query systems
-                    </p>
-                </div>
-
-                <div class="skill card">
-                    <h3>
-                        Tools
-                    </h3>
-                    <p>
-                        &bull; Familiar with Figma &amp; the Adobe Creative Suite
-                        <br>
-                        &bull; Integration of CRM &amp; Analytics Plarforms like HubSpot, Klaviyo , Mailchimp , Google
-                        Analytics &amp; Hotjar.
-                        <br>
-                        &bull; Project Management through Trello , Asana , Slack ,
-                        Jira &amp; Confluence.
-                    </p>
-                </div>
-            </section>
-
-            <section id="experience">
-                <h2>Experience</h2>
-                <div class="job card">
-                    <h3 id="job">WiredFlow Agency</h3>
-                    <p class="role">Lead UI/UX Designer</p>
-                    <p class="timeline">2019 - Present</p>
-                    <p class="responsibilities">
-                        At WiredFlow, I lead the design process for all projects. I work closely with the development
-                        team
-                        to
-                        ensure that the vision is carried through to the final product. I also work with clients to
-                        ensure
-                        that their needs are met and that they are happy with the final product.
-                    </p>
-                </div>
-                <div class="job card">
-                    <h3>Design Co.</h3>
-                    <p class="role">UI/UX Designer</p>
-                    <p class="timeline">
-                        2017 - 2019
-                    </p>
-                    <p class="responsibilities">
-                        At Design Co., I worked on a variety of projects, from small websites to large web applications.
-                        I
-                        was
-                        responsible for the design of the user interface and user experience, as well as working with
-                        the
-                        development team to ensure that the design was implemented correctly.
-                    </p>
-                </div>
-                <div class="education"></div>
-            </section>
+            <section id="skills"></section>
+            <section id="experience"></section>
+            <section class="education"></section>
             <section id="portfolio">
                 <h2>Recent Work</h2>
                 <div class="project card">
@@ -273,14 +186,14 @@
                 </a>
             </div>
             <p>
-                &copy; 2024 Josh Miles. All rights reserved.
-            </p>
-            <p>
-                <a href="https://github.com/ayushsaranGithuB/one-page-portfolios/tree/main">Get this Free! One-Page
-                    Portfolio Template</a>
+                &copy; 2025 David Waligora.
             </p>
         </footer>
     </div>
 </body>
-<script src="utils/functions.js"></script>
+<script type="module" src="data/functions.js"></script>
+<script type="module" src="data/models/education.js"></script>
+<script type="module" src="data/models/skill.js"></script>
+<script type="module" src="app.js"></script>
+
 </html>

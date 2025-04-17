@@ -23,11 +23,20 @@
 
 body {
     background-color: var(--background-color);
-    font-family: Inter, Arial, sans-serif;
+    font-family: "Noto Sans", sans-serif;
     margin: 0;
     padding: 0 20px;
     color: var(--text-color);
 }
+
+.header{
+    position: sticky;
+    top: 0;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+
 
 #page {
     display: flex;
@@ -43,17 +52,17 @@ header {
     display: flex;
     align-items: center;
     padding: 20px 0;
+    width: 100%;
+    background-color: var(--background-color);
 }
 
 nav {
-
     margin-left: auto;
 }
 
 .logo {
     font-size: var(--font-size-lg);
     font-weight: 700;
-
 }
 
 nav ul {
@@ -108,7 +117,7 @@ p {
 /* SECTIONS  */
 
 #about {
-    margin-top: var(--space-xxl);
+    margin-top: var(--space-xl);
 }
 
 #about h1 {
@@ -221,7 +230,21 @@ footer .social a:hover svg {
 
 
 /* MEDIA QUERIES */
-
+@media screen and (max-width: 700px) {
+    header {
+        text-align: center;
+    }
+    .logo{
+        margin-bottom: 10px;
+    }
+        .header {
+          grid-template-columns: 1fr; /* 1 column */
+        }
+nav{
+    margin: unset;
+    justify-self: center;
+}
+}
 @media screen and (max-width: 600px) {
     :root {
         --primary-color: #f9a826;
@@ -248,19 +271,8 @@ footer .social a:hover svg {
         --font-size-xxl: 48px;
     }
 
-    header {
-        align-items: flex-start;
-    }
-
     .logo {
         font-size: var(--font-size-xl);
-    }
-
-    nav ul {
-        flex-direction: column;
-        gap: 14px;
-        list-style: none;
-        align-items: flex-end;
     }
 
     section {
