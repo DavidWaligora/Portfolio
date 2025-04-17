@@ -1,0 +1,40 @@
+[
+    {
+        "title": "Back-End Development",
+        "items": [
+            "Proficient in C#, ASP.NET Core, ASP.NET MVC, ASP.NET MVVM, Web API, and Entity Framework.",
+            "Experience with MongoDB, MySQL, PostgreSQL database setup and management.",
+            "Building RESTful APIs",
+            "Knowledge of SQL and database design principles.",
+            "Experience with MSAL for authentication and authorization."
+        ]
+    },
+    {
+        "title": "Front-End Development",
+        "items": [
+            "Experience with React, React Native, Next.js, and Mobile App Development.",
+            "Knowledge of JavaScript, TypeScript, HTML, CSS, Tailwind and Bootstrap.",
+            "Proficient in building responsive web applications."
+        ]
+    },
+    {
+        "title": "Tools",
+        "items": [
+            "Familiar with Visual Studio, WebStorm, Visual Studio Code, Github, Azure DevOps, Postman, and other development tools.",
+            "Experience with Swagger API for API documentation.",
+            "Proficient in using Docker for containerization.",
+            "Familiar with Tanstack for state management in front-end applications.",
+            "Experienced in using CI/CD pipelines for automated testing and deployment."
+        ]
+    },
+    {
+        "title": "Applications",
+        "items": [
+            "Worked with Blazor for building interactive web applications.",
+            "Experience with Next.js for server-side rendering and static site generation.",
+            "Familiar with NextUI for building modern, responsive UI components.",
+            "Developed cross-platform applications using .NET MAUI.",
+            "Worked with xUnit for testing."
+        ]
+    }
+]
