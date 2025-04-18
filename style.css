@@ -30,13 +30,26 @@ body {
 }
 
 .header{
-    position: sticky;
-    top: 0;
     display: grid;
     grid-template-columns: 1fr 2fr;
 }
 
+#headerBackground{
+    background-color: var(--background-color);
+    position: sticky;
+    top: 0;
+}
 
+#headerContainer{
+
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: var(--space-md);
+    background-color: var(--background-color);
+
+}
 
 #page {
     display: flex;
