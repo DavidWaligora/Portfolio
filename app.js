@@ -1,5 +1,5 @@
 
-import { fillSkills, fillEducation, fillExperience } from "../data/functions.js";
+import { fillSkills, fillEducation, fillExperience, fillProjects } from "../data/functions.js";
 // Catch all the # links from the nav and make them scroll smoothly to their destinations
 const navLinks = document.querySelectorAll("nav ul li a");
 
@@ -18,3 +18,4 @@ navLinks.forEach((link) => {
 fillEducation();
 fillSkills()
 fillExperience();
+fillProjects();

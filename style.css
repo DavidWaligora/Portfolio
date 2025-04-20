@@ -30,6 +30,7 @@ body {
 }
 
 .header{
+    padding: 20px 0 20px;
     display: grid;
     grid-template-columns: 1fr 2fr;
 }
@@ -40,15 +41,33 @@ body {
     top: 0;
 }
 
-#headerContainer{
+.technologyPill{
+    background-color: var(--accent-color);
+    color: var(--background-color);
+    padding: 4px 8px;
+    border-radius: 20px;
+    font-size: var(--font-size-xs);
+    font-weight: 700;
+    margin-right: var(--space-sm);
+}
 
+.technologyContainer {
     display: flex;
-    flex-direction: column;
-    max-width: 1000px;
-    margin: 0 auto;
-    padding-top: var(--space-md);
-    background-color: var(--background-color);
+    flex-wrap: wrap; /* optional, allows wrapping if pills overflow */
+    gap: 8px;        /* optional, adds spacing between pills */
+  }
 
+  #headerLogos{
+    background-color: var(--background-color);
+    text-align: end;
+    grid-column: span 3;
+  }
+
+
+
+.project .cardText{
+    grid-row: span 3;
+    padding-bottom: 32px;
 }
 
 #page {
@@ -60,13 +79,22 @@ body {
 }
 
 /* LOGO AND NAVIGATION */
+.header{
+    padding: 20px 0 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
 
-header {
+#headerContainer{
     display: flex;
-    align-items: center;
-    padding: 20px 0;
-    width: 100%;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: 0 auto;
     background-color: var(--background-color);
+}
+
+.socialHeader a:hover svg {
+    fill: var(--accent-color);
 }
 
 nav {
@@ -89,6 +117,9 @@ nav ul li a:link,
 nav ul li a:visited {
     color: var(--text-color);
     opacity: 0.7;
+}
+nav ul li a:hover{
+    color: var(--accent-color);
 }
 
 /* TYPOGRAPHY */
@@ -219,6 +250,10 @@ section {
     color: var(--text-color);
 }
 
+.form {
+    padding-top: 32px;
+}
+
 
 /* FOOTER */
 
@@ -244,15 +279,22 @@ footer .social a:hover svg {
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 700px) {
-    header {
+    .header {
+        text-align: center;
+        display: block;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    #headerBackground{
+        position: unset;
+    }
+    .socialHeader{
+        padding: 10px;
         text-align: center;
     }
     .logo{
         margin-bottom: 10px;
     }
-        .header {
-          grid-template-columns: 1fr; /* 1 column */
-        }
 nav{
     margin: unset;
     justify-self: center;
