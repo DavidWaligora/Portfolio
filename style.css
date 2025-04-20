@@ -250,9 +250,6 @@ section {
     color: var(--text-color);
 }
 
-.form {
-    padding-top: 32px;
-}
 
 
 /* FOOTER */
@@ -300,7 +297,7 @@ nav{
     justify-self: center;
 }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     :root {
         --primary-color: #f9a826;
         --secondary-color: #f9a826;
@@ -341,5 +338,71 @@ nav{
 
     .project {
         grid-template-columns: 1fr;
+    }
+}
+
+/*Form*/
+.card-form{
+    background: linear-gradient(90deg, #35353f 0%, #3d3b3e 50%, #3d3b3e 50%);
+    border-radius: 20px;
+    padding: var(--space-lg);
+    border: 0.5px solid #484851;
+    margin-bottom: var(--space-lg);
+}
+
+.form{
+    text-align: left;
+    padding: 20px;
+}
+
+.form-label{
+    padding-bottom: 10px;
+}
+.form-input{
+    width: 100%;
+    border: 1px solid #fff;
+    font: 16px  sans-serif;
+    color: white;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: transparent;
+}
+
+.form-group{
+    margin-bottom: 20px;
+}
+
+.form-group-row-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.form-footer{
+    width: 100%;
+    text-align: center;
+    justify-items: center;
+}
+
+.form-btn{
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    font: 16px  sans-serif;
+
+}
+.form-btn:hover{
+    background-color: var(--accent-color);
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 700px) {
+    .form-group-row-2{
+        display: block;
     }
 }
