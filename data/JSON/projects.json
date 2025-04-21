@@ -13,14 +13,15 @@
       "SQL",
       "API",
       "MSAL",
-      "Azure DevOps"
+      "Azure DevOps",
+      "CI/CD"
     ]
   },
   {
     "imageUrl": "paintballhappening.jpg",
     "alt": "paintballHappening",
-    "title": "PaintballHappening website",
-    "description": "in team of 4 we worked out a new website for paintball happening a kmo. The goal was to find a small kmo to help. We made a website with a reservation system, and a payment system. The website is made with wordpress and plugins. The newly made website is user friendly and easy to maintain for the owner. I made a couple pages and always did my time due to the deadline we made for the project.",
+    "title": "PaintballHappening",
+    "description": "In team of 4 we worked out a new website for paintball happening a kmo. The goal was to find a small kmo to help. We made a website with a reservation system, and a payment system. The website is made with wordpress and plugins. The newly made website is user friendly and easy to maintain for the owner. I made a couple pages and always did my time due to the deadline we made for the project.",
     "url": null,
     "technologies": ["Wordpress", "HTML", "CSS"]
   },
@@ -43,8 +44,8 @@
     ]
   },
   {
-    "imageUrl": null,
-    "alt": null,
+    "imageUrl": "careAway.png",
+    "alt": "image of careaway website",
     "title": "Youth travel app",
     "description": "In a team of 5, we developed a travel app for youth, focusing on user-friendliness and a modern design. I was responsible for the backend, creating a REST API with .NET Core and Entity Framework. The app allows users to create an account, log in, and manage their travel plans. We used Agile methodology for efficient collaboration and timely delivery. The application allows an organization to manage trips, monitors, activities, photos, etc. The app offers both members and non-members the opportunity to easily register for trips. This project taught me how to work effectively in a team. Using Scrum, standups, and good planning helped us manage time well and write efficient code during sprints. Our collaboration resulted in a well-functioning application.",
     "url": null,
@@ -60,7 +61,6 @@
       "JavaScript"
     ]
   },
-
   {
     "imageUrl": "mauiWedstrijden.png",
     "alt": null,
@@ -70,8 +70,8 @@
     "technologies": [".Net MAUI", "C#", "XAML", "SQL", "API"]
   },
   {
-    "imageUrl": null,
-    "alt": null,
+    "imageUrl": "gitHub.png",
+    "alt": "Github actions",
     "title": "Astro Development & Playwright Testing",
     "description": "Set up an Astro frontend with FlowBite styling, integrated scraped data using Puppeteer, and wrote E2E tests with Playwright. Deployed via GitHub Actions to Combell.",
     "url": null,
@@ -85,56 +85,48 @@
     ]
   },
   {
-    "imageUrl": null,
-    "alt": null,
+    "imageUrl": "puppeteer.png",
+    "alt": "Puppeteer",
     "title": "Puppeteer Web Scraping",
-    "description": "Scraped product data from Coolblue using Puppeteer, applied filters, cleaned data, and saved structured JSON files. Included a personal project scraping weather forecasts.",
+    "description": "Worked on several assignments focused on web scraping with Puppeteer. I Extracted product information from the Coolblue website, specifically targeting PlayStations and laptops. Collected key details such as title, price, availability, and product specifications. Applied filters to retain only relevant products, e.g., those above a certain price point. Cleaned and structured the data into organized objects and stored the results in .json files for further use. As a follow-up, I developed my own mini-project to scrape data from a weather website. This script collected 7-day forecasts to determine which days would be most suitable for specific outdoor activities.",
     "url": null,
-    "technologies": ["Puppeteer", "JavaScript", "JSON", "Data Cleaning"]
+    "technologies": ["Puppeteer", "JavaScript", "JSON"]
   },
   {
-    "imageUrl": null,
-    "alt": null,
+    "imageUrl": "bugfixing.png",
+    "alt": "Bugfixing code",
     "title": "C# Bugfixing Project",
-    "description": "Fixed 20 bugs in a C# app involving syntax, logic, and runtime issues. Practiced pair programming and worked with an existing codebase.",
+    "description": " I worked on a project focused on debugging an existing C# application. The assignment involved identifying and resolving 20 deliberately introduced errors, including syntax, runtime, and logical bugs. The goal was to fix as many issues as possible, with one point awarded per resolved bug. This project emphasized working with existing codebases and improving collaboration skills through pair programming. By analyzing unfamiliar code and systematically fixing issues, I gained valuable hands-on experience in maintaining real-world software.",
     "url": null,
-    "technologies": ["C#", "Debugging", "Pair Programming"]
+    "technologies": ["C#", "Debugging"]
   },
   {
-    "imageUrl": null,
-    "alt": null,
+    "imageUrl": "drawio-tabellen.png",
+    "alt": "Drawio modellen",
     "title": "Holiday Park Modeling",
-    "description": "Designed ERD and MongoDB schema for a fictional holiday park. Focused on data modeling and complex relationships.",
+    "description": "For the DB Advanced course, I completed an individual project focused on designing a database model for a hypothetical vacation park. The project involved creating an Entity-Relationship Diagram (ERD) and defining MongoDB schemas for key entities. I modeled a complex system with eight core entities including accommodations, guests, reservations, amenities, activities, and staff. Using the synthesis method, I designed a complete ERD with clear relationships, multiplicities, primary and foreign keys, data types, and other constraints. In addition to the relational model, I converted two main entities into document-based MongoDB schemas. These JSON schemas incorporated embedding and referencing to reflect the structure and interconnections between data elements, ensuring encapsulation and proper data typing.",
     "url": null,
     "technologies": ["MongoDB", "ERD", "Database Design"]
   },
   {
-    "imageUrl": null,
-    "alt": null,
-    "title": "First JavaScript Website",
-    "description": "Built a basic responsive site using HTML and CSS. Learned layout, selectors, and responsive design principles.",
-    "url": null,
-    "technologies": ["HTML", "CSS", "Responsive Design"]
-  },
-  {
-    "imageUrl": null,
-    "alt": null,
+    "imageUrl": "javascriptTask.png",
+    "alt": "Image with programmer",
     "title": "JavaScript Task Manager",
     "description": "Created a dynamic task list app using advanced JS features like DOM manipulation, AJAX, and local storage.",
     "url": null,
     "technologies": ["JavaScript", "DOM", "AJAX", "LocalStorage"]
   },
   {
-    "imageUrl": null,
-    "alt": null,
+    "imageUrl": "formJavascript.png",
+    "alt": "Form error message code",
     "title": "User Registration Form",
     "description": "Built a dynamic form with dark mode, real-time validation, and conditional dropdowns. Used JS and Bootstrap.",
     "url": null,
     "technologies": ["JavaScript", "Bootstrap", "Form Validation"]
   },
   {
-    "imageUrl": null,
-    "alt": null,
+    "imageUrl": "moderniseringWebsite.png",
+    "alt": "VoorbeeldWebsite",
     "title": "SportFusion Camp Modernization",
     "description": "Redesigned an old website using Bootstrap for a modern, responsive look. Maintained original content structure.",
     "url": null,

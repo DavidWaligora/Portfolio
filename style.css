@@ -55,6 +55,7 @@ body {
   display: flex;
   flex-wrap: wrap; /* optional, allows wrapping if pills overflow */
   gap: 8px; /* optional, adds spacing between pills */
+  margin-top: 12px;
 }
 
 #headerLogos {
@@ -65,7 +66,6 @@ body {
 
 .project .cardText {
   grid-row: span 3;
-  padding-bottom: 32px;
 }
 
 #page {
@@ -443,6 +443,11 @@ footer .social a:hover svg {
   color: #47ebeb;
   text-decoration: none;
   cursor: pointer;
+}
+
+.portfolioBtn{
+  margin-top: 10px;
+  text-align: center;
 }
 
 .portfolioBtn:hover{

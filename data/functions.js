@@ -182,7 +182,7 @@ const fetchProjects = async () => {
 
 export async function fillModalProjects() {
   const modalProjects = document.querySelector(".modal-projects");
-  console.log(modalProjects)
+  modalProjects.innerHTML = ""
   const innerContent = document.createElement("div");
   const projects = await fetchProjects();
   
@@ -190,7 +190,7 @@ export async function fillModalProjects() {
     return;
   }
   for (let i = 0; i < projects.length; i++) {
-    if (i > 3) {
+    if (i >= 3) {
       const div = document.createElement("div");
       div.className = "project card";
 
