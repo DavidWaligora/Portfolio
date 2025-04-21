@@ -1,5 +1,5 @@
 
-import { fillSkills, fillEducation, fillExperience, fillProjects } from "../data/functions.js";
+import { fillSkills, fillEducation, fillExperience, fillProjects, fillModalProjects } from "../data/functions.js";
 // Catch all the # links from the nav and make them scroll smoothly to their destinations
 const navLinks = document.querySelectorAll("nav ul li a");
 
@@ -15,7 +15,36 @@ navLinks.forEach((link) => {
     };
 });
 
+
+
 fillEducation();
 fillSkills()
 fillExperience();
-fillProjects();
+await fillProjects();
+
+
+// modal// Get the modal
+var modal = document.getElementById("modalPortfolio");
+var portfolioBtn = document.querySelector(".portfolioBtn");
+var span = document.getElementById("portfolioCloseBtn");
+
+// When the user clicks on the button, open the modal
+portfolioBtn.onclick = async function() {
+  modal.style.display = "block";
+  document.body.classList.add("projects-modal-open");
+  await fillModalProjects()
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+  document.body.classList.remove("projects-modal-open");
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+    document.body.classList.remove("projects-modal-open");
+  }
+}

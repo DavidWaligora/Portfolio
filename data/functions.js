@@ -94,7 +94,7 @@ export async function fillProjects() {
   const innerContent = document.createElement("div");
   innerContent.innerHTML = "<h2>Recent Work</h2><br>";
   const projects = await fetchProjects();
-
+  
   if (projects == null || projects.length == 0) {
     return;
   }
@@ -116,7 +116,7 @@ export async function fillProjects() {
       image.alt = projects[i].alt ?? "";
       link.appendChild(image);
       imageDiv.appendChild(link);
-
+      
       // add image to div
       div.appendChild(imageDiv);
 
@@ -146,6 +146,11 @@ export async function fillProjects() {
       break;
     }
   }
+  const showMoreButton = document.createElement("h2")
+  showMoreButton.classList = "portfolioBtn"
+  showMoreButton.innerHTML = "Show more"
+  innerContent.appendChild(showMoreButton)
+
   projectsDiv.appendChild(innerContent);
 }
 
@@ -173,3 +178,64 @@ const fetchProjects = async () => {
 
   return result;
 };
+
+
+export async function fillModalProjects() {
+  const modalProjects = document.querySelector(".modal-projects");
+  console.log(modalProjects)
+  const innerContent = document.createElement("div");
+  const projects = await fetchProjects();
+  
+  if (projects == null || projects.length == 0) {
+    return;
+  }
+  for (let i = 0; i < projects.length; i++) {
+    if (i > 3) {
+      const div = document.createElement("div");
+      div.className = "project card";
+
+      // Create image
+      const imageDiv = document.createElement("div");
+      imageDiv.className = "thumbnail";
+      const link = document.createElement("a");
+      link.href = projects[i].url ?? "";
+      link.target = "_blank";
+
+      // add image
+      const image = document.createElement("img");
+      image.src = projects[i].imageUrl ? `./images/${projects[i].imageUrl}` : "";
+      image.alt = projects[i].alt ?? "";
+      link.appendChild(image);
+      imageDiv.appendChild(link);
+      
+      // add image to div
+      div.appendChild(imageDiv);
+
+      // make a new div for text
+      const textDiv = document.createElement("div");
+      textDiv.className = "cardText";
+      // add title
+      const titleHeader = document.createElement("h3");
+      titleHeader.innerHTML = projects[i].title;
+      textDiv.appendChild(titleHeader);
+
+      // add description
+      const descriptionParagraph = document.createElement("p");
+      descriptionParagraph.innerHTML = projects[i].description;
+      textDiv.appendChild(descriptionParagraph);
+      
+      // add technologies
+      const technologiesDiv = document.createElement("div");
+      technologiesDiv.className = "technologyContainer";
+      technologiesDiv.innerHTML += getTechnologies(projects[i].technologies);
+      textDiv.appendChild(technologiesDiv);
+      
+      div.appendChild(textDiv);
+      // add div to innercontent
+      innerContent.innerHTML += div.outerHTML;
+    } else {
+      continue;
+    }
+  }
+  modalProjects.appendChild(innerContent);
+}
