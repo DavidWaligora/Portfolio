@@ -6,7 +6,7 @@
     "description": "Built a .NET Blazor app from scratch to automate data processing and reduce manual work for GTT Automotive. Dealers and suppliers access vehicle data through a custom login, while admins validate data via Microsoft login. The app is designed for scalability, strong security, and a smooth user experience. This project gave me hands-on experience with .NET Blazor in a professional setting.",
     "url": null,
     "technologies": [
-      ".Net Blazor",
+      ".NET Blazor",
       "C#",
       "Bootstrap",
       "Entity Framework",
@@ -21,7 +21,7 @@
     "imageUrl": "paintballHappening.jpg",
     "alt": "paintballHappening",
     "title": "PaintballHappening",
-    "description": "In team of 4 we worked out a new website for paintball happening a kmo. The goal was to find a small kmo to help. We made a website with a reservation system, and a payment system. The website is made with wordpress and plugins. The newly made website is user friendly and easy to maintain for the owner. I made a couple pages and always did my time due to the deadline we made for the project.",
+    "description": "In a team of 4 we worked out a new website for Paintball Happening, a small KMO. The goal was to find a small kmo to help. We made a website with a reservation system, and a payment system. The website is made with wordpress and plugins. The newly made website is user friendly and easy to maintain for the owner. I created several pages and consistently met project deadlines.",
     "url": null,
     "technologies": ["Wordpress", "HTML", "CSS"]
   },
@@ -47,10 +47,10 @@
     "imageUrl": "careAway.png",
     "alt": "image of careaway website",
     "title": "Youth travel app",
-    "description": "In a team of 5, we developed a travel app for youth, focusing on user-friendliness and a modern design. I was responsible for the backend, creating a REST API with .NET Core and Entity Framework. The app allows users to create an account, log in, and manage their travel plans. We used Agile methodology for efficient collaboration and timely delivery. The application allows an organization to manage trips, monitors, activities, photos, etc. The app offers both members and non-members the opportunity to easily register for trips. This project taught me how to work effectively in a team. Using Scrum, standups, and good planning helped us manage time well and write efficient code during sprints. Our collaboration resulted in a well-functioning application.",
+    "description": "In a team of five, we developed a travel app tailored for youth, with a focus on user-friendliness and modern design. I was responsible for the backend, creating a REST API using .NET Core and Entity Framework. The app supports user account creation, login, and trip management. It also enables organizations to manage trips, monitors, activities, photos, and more. Members and non-members can easily register for trips. We used Agile methodologies (Scrum, standups, sprint planning) to ensure timely delivery and effective teamwork. This project strengthened my ability to collaborate, plan, and write efficient code in a real-world setting.",
     "url": null,
     "technologies": [
-      ".Net MVC",
+      ".NET MVC",
       "C#",
       "Entity Framework",
       "SQL",
@@ -65,9 +65,9 @@
     "imageUrl": "mauiWedstrijden.png",
     "alt": null,
     "title": "Maui match application",
-    "description": "In a team of 2, We worked on a .Net Maui applicatin, we had to add 5 features each to the application. I did debugging as there were some bugs in the application. Also i made it possible to receive, create, delete, update a match / matches from the database by creating repository's and models. I also added a extra page where i got data from a api and displayed it in a list. here i used a deserializer to convert the json data to a model. ",
+    "description": "In a team of 2, We worked on a .NET Maui application, we had to add 5 features each to the application. I did debugging as there were some bugs in the application. Also i made it possible to receive, create, delete, update a match / matches from the database by creating repositories and models. I also added a extra page where i got data from a api and displayed it in a list. Here i used a deserializer to convert the json data to a model. ",
     "url": null,
-    "technologies": [".Net MAUI", "C#", "XAML", "SQL", "API"]
+    "technologies": [".NET MAUI", "C#", "XAML", "SQL", "API"]
   },
   {
     "imageUrl": "gitHub.png",
