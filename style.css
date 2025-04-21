@@ -56,6 +56,7 @@ body {
   flex-wrap: wrap; /* optional, allows wrapping if pills overflow */
   gap: 8px; /* optional, adds spacing between pills */
   margin-top: 12px;
+  margin-bottom: 32px;
 }
 
 #headerLogos {

@@ -106,16 +106,13 @@ export async function fillProjects() {
       // Create image
       const imageDiv = document.createElement("div");
       imageDiv.className = "thumbnail";
-      const link = document.createElement("a");
-      link.href = projects[i].url ?? "";
-      link.target = "_blank";
+
 
       // add image
       const image = document.createElement("img");
       image.src = projects[i].imageUrl ? `./images/${projects[i].imageUrl}` : "";
       image.alt = projects[i].alt ?? "";
-      link.appendChild(image);
-      imageDiv.appendChild(link);
+      imageDiv.appendChild(image);
       
       // add image to div
       div.appendChild(imageDiv);
@@ -197,16 +194,12 @@ export async function fillModalProjects() {
       // Create image
       const imageDiv = document.createElement("div");
       imageDiv.className = "thumbnail";
-      const link = document.createElement("a");
-      link.href = projects[i].url ?? "";
-      link.target = "_blank";
 
       // add image
       const image = document.createElement("img");
       image.src = projects[i].imageUrl ? `./images/${projects[i].imageUrl}` : "";
       image.alt = projects[i].alt ?? "";
-      link.appendChild(image);
-      imageDiv.appendChild(link);
+      imageDiv.appendChild(image);
       
       // add image to div
       div.appendChild(imageDiv);
