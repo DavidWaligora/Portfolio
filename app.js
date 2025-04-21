@@ -48,3 +48,11 @@ window.onclick = function(event) {
     document.body.classList.remove("projects-modal-open");
   }
 }
+
+// prevent enter 
+document.getElementById('myForm').addEventListener('keydown', function (event) {
+  if (event.key === 'Enter') {
+    event.preventDefault(); // Stop form from submitting
+    console.log(event)
+  }
+});
