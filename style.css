@@ -397,6 +397,7 @@ footer .social a:hover svg {
 .form-btn {
   padding: 10px 20px;
   background-color: white;
+  color: var(--background-color);
   border-radius: 10px;
   border: none;
   font: 16px sans-serif;
