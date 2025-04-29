@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=National+Park:wght@200..800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
 :root {
   --accent-color: #47ebeb;
   --background-color: #2a2a31;
@@ -164,7 +166,7 @@ p {
 
 #about h1 {
   font-size: var(--font-size-xxl);
-  margin-bottom: var(--space-sm);
+  padding-bottom: var(--space-sm);
 }
 
 #about p {
@@ -182,7 +184,7 @@ section {
 .card {
   background: linear-gradient(90deg, #35353f 0%, #3d3b3e 50%, #3d3b3e 50%);
   border-radius: 20px;
-  padding: var(--space-xs) var(--space-lg) var(--space-lg);
+  padding: var(--space-lg) var(--space-lg) var(--space-lg);
   border: 0.5px solid #484851;
   margin-bottom: var(--space-lg);
 }

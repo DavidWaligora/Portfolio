@@ -4,30 +4,34 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio David Waligora</title>
-    <meta name="author" content="David Waligora">
-    <meta name = "description" content="This website provides an overview of my professional career.">
+    <meta name="author" content="David Waligora" />
+    <meta
+      name="description"
+      content="This website provides an overview of my professional career."
+    />
+    <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
     <!-- Standard Favicon -->
-    <link rel="icon" href="src/favicon.ico"  />
+    <link rel="icon" href="src/favicon.ico" />
 
     <!-- 16x16 Icon for Browsers -->
     <link rel="icon" href="src/favicon-16x16.png" sizes="16x16" />
 
     <!-- 32x32 Icon for Browsers -->
-    <link rel="icon" href="src/favicon-32x32.png" sizes="32x32"  />
+    <link rel="icon" href="src/favicon-32x32.png" sizes="32x32" />
 
     <!-- Apple Touch Icon for iOS devices -->
-    <link rel="apple-touch-icon" href="src/apple-touch-icon.png" sizes="180x180"/>
+    <link
+      rel="apple-touch-icon"
+      href="src/apple-touch-icon.png"
+      sizes="180x180"
+    />
 
     <!-- Android Chrome Icon -->
-    <link rel="icon" href="src/android-chrome-192x192.png" sizes="192x192"/>
+    <link rel="icon" href="src/android-chrome-192x192.png" sizes="192x192" />
 
     <!-- Higher resolution Android Chrome Icon -->
     <link rel="icon" href="src/android-chrome-512x512.png" sizes="512x512" />
-
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=National+Park:wght@200..800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
-    </style>
   </head>
 
   <body>
@@ -164,10 +168,15 @@
           </p>
           <div class="card-form">
             <!--Formulier-->
-            <form class="form" id="myForm" action="https://tm-statweb.be/sendmail.php" method="post">
+            <form
+              class="form"
+              id="myForm"
+              action="https://tm-statweb.be/sendmail.php"
+              method="post"
+            >
               <div class="form-group-row-2">
                 <div class="form-group">
-                  <label class="form-label" for="firstname" >First name:</label>
+                  <label class="form-label" for="firstname">First name:</label>
                   <input
                     class="form-input"
                     id="firstname"
@@ -177,9 +186,7 @@
                   />
                 </div>
                 <div class="form-group">
-                  <label class="form-label" for="lastname" 
-                    >Last name:</label
-                  >
+                  <label class="form-label" for="lastname">Last name:</label>
                   <input
                     class="form-input"
                     type="text"
@@ -190,9 +197,7 @@
                 </div>
               </div>
               <div class="form-group">
-                <label class="form-label" for="email" 
-                  >Email:</label
-                >
+                <label class="form-label" for="email">Email:</label>
                 <input
                   class="form-input"
                   type="email"
@@ -203,9 +208,7 @@
                 />
               </div>
               <div class="form-group">
-                <label class="form-label" for="mailSubject" 
-                  >Subject:</label
-                >
+                <label class="form-label" for="mailSubject">Subject:</label>
                 <input
                   class="form-input"
                   type="text"
@@ -215,9 +218,7 @@
                 />
               </div>
               <div class="form-group">
-                <label class="form-label" for="message"
-                  >Message:</label
-                >
+                <label class="form-label" for="message">Message:</label>
                 <textarea
                   class="form-input"
                   id="message"
@@ -225,13 +226,24 @@
                   required
                 ></textarea>
               </div>
-              <div style="display: none;">
+              <div style="display: none">
                 <label for="bottrap">Do not fill this out:</label>
-                <input type="text" id="bottrap" name="illegal" autocomplete="off">
+                <input
+                  type="text"
+                  id="bottrap"
+                  name="illegal"
+                  autocomplete="off"
+                />
               </div>
-              <input type="hidden" name="studentemail" value="r0989841@student.thomasmore.be">
+              <input
+                type="hidden"
+                name="studentemail"
+                value="r0989841@student.thomasmore.be"
+              />
               <div class="form-footer">
-                <button class="form-btn" id="formbutton" type="submit" >Submit</button>
+                <button class="form-btn" id="formbutton" type="submit">
+                  Submit
+                </button>
               </div>
             </form>
           </div>
@@ -312,5 +324,4 @@
   <script type="module" src="data/models/skill.js"></script>
   <script type="module" src="app.js"></script>
   <script type="module" src="form.js"></script>
-
 </html>
