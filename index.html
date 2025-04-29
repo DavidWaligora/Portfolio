@@ -167,7 +167,7 @@
             <form class="form" id="myForm" action="https://tm-statweb.be/sendmail.php" method="post">
               <div class="form-group-row-2">
                 <div class="form-group">
-                  <label class="form-label" for="firstname" name="firstName">First name:</label>
+                  <label class="form-label" for="firstname" >First name:</label>
                   <input
                     class="form-input"
                     id="firstname"
@@ -177,7 +177,7 @@
                   />
                 </div>
                 <div class="form-group">
-                  <label class="form-label" for="lastname" name="lastName" 
+                  <label class="form-label" for="lastname" 
                     >Last name:</label
                   >
                   <input
@@ -190,7 +190,7 @@
                 </div>
               </div>
               <div class="form-group">
-                <label class="form-label" for="email" name="email"
+                <label class="form-label" for="email" 
                   >Email:</label
                 >
                 <input
@@ -202,7 +202,7 @@
                 />
               </div>
               <div class="form-group">
-                <label class="form-label" for="mailIubject" name="subject"
+                <label class="form-label" for="mailSubject" 
                   >Subject:</label
                 >
                 <input
@@ -214,7 +214,7 @@
                 />
               </div>
               <div class="form-group">
-                <label class="form-label" for="message" name="message"
+                <label class="form-label" for="message"
                   >Message:</label
                 >
                 <textarea
@@ -224,9 +224,13 @@
                   required
                 ></textarea>
               </div>
+              <div style="display: none;">
+                <label for="bottrap">Do not fill this out:</label>
+                <input type="text" id="bottrap" name="illegal" autocomplete="off">
+              </div>
               <input type="hidden" name="studentemail" value="r0989841@student.thomasmore.be">
               <div class="form-footer">
-                <input class="form-btn" type="submit" value="Submit" />
+                <button class="form-btn" id="formbutton" type="submit" >Submit</button>
               </div>
             </form>
           </div>
@@ -306,4 +310,6 @@
   <script type="module" src="data/models/education.js"></script>
   <script type="module" src="data/models/skill.js"></script>
   <script type="module" src="app.js"></script>
+  <script type="module" src="form.js"></script>
+
 </html>
