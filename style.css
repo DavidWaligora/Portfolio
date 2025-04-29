@@ -96,7 +96,7 @@ body {
   fill: var(--accent-color);
 }
 
-nav {
+#nav {
   margin-left: auto;
 }
 
@@ -295,7 +295,7 @@ footer .social a:hover svg {
   .logo {
     margin-bottom: 10px;
   }
-  nav {
+  #nav {
     margin: unset;
     justify-self: center;
   }
