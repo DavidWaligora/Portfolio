@@ -107,7 +107,7 @@ body {
   font-weight: 700;
 }
 
-nav ul {
+.navUl {
   display: flex;
   gap: 40px;
   list-style: none;
@@ -300,14 +300,19 @@ footer .social a:hover svg {
   }
   #nav {
     margin: unset;
-    justify-self: center;
+    width: 100%;
   }
   .navlist{
-    width: 100vw;
-    justify-items: center;
+    width: 100%;
+    justify-self: center;
   }
-  nav ul {
-    gap: 10px;
+  .navUl{
+    display: flex; /* makes the ul a flex container */
+    justify-content: space-between; /* distributes items with space between */
+    width: 100%;
+    padding: 0;
+    gap: unset;
+    justify-content: space-between;
   }
 }
 @media screen and (max-width: 700px) {
