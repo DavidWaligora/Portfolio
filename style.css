@@ -114,6 +114,7 @@ nav ul {
   margin: 0;
 }
 
+
 nav ul li a:link,
 nav ul li a:visited {
   color: var(--text-color);
@@ -301,9 +302,12 @@ footer .social a:hover svg {
     margin: unset;
     justify-self: center;
   }
+  .navlist{
+    width: 100vw;
+    justify-items: center;
+  }
   nav ul {
     gap: 10px;
-    padding-inline-start: 0px;
   }
 }
 @media screen and (max-width: 700px) {
@@ -344,6 +348,7 @@ footer .social a:hover svg {
   h2 {
     margin-top: var(--space-lg);
   }
+
 
   .project {
     grid-template-columns: 1fr;
