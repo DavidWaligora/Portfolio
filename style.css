@@ -455,8 +455,9 @@ footer .social a:hover svg {
   background: var(--background-color);
   border-radius: 20px;
   padding: var(--space-lg);
-  border: 0.5px solid #484851;
+  border: none;
   max-width: 1000px;
+  box-shadow: 0px 0px 20px #6c6c6c;
 }
 
 /* The Close Button */
