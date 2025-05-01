@@ -452,7 +452,7 @@ footer .social a:hover svg {
 .modal-content {
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
-  background: linear-gradient(90deg, #35353f 0%, #3d3b3e 50%, #3d3b3e 50%);
+  background: var(--background-color);
   border-radius: 20px;
   padding: var(--space-lg);
   border: 0.5px solid #484851;
