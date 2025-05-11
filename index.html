@@ -32,6 +32,7 @@
 
     <!-- Higher resolution Android Chrome Icon -->
     <link rel="icon" href="src/android-chrome-512x512.png" sizes="512x512" />
+     <script src="https://www.google.com/recaptcha/api.js"></script>
   </head>
 
   <body>
@@ -75,8 +76,8 @@
                        c0-0.6,0.4-1,1-1h4c0.6,0,1,0.4,1,1V25z M9,11c-1.7,0-3-1.3-3-3s1.3-3,3-3s3,1.3,3,3S10.7,11,9,11z M26,25c0,0.6-0.4,1-1,1h-3
                        c-0.6,0-1-0.4-1-1v-3.5v-1v-2c0-0.8-0.7-1.5-1.5-1.5S18,17.7,18,18.5v2v1V25c0,0.6-0.4,1-1,1h-3c-0.6,0-1-0.4-1-1V13
                        c0-0.6,0.4-1,1-1h4c0.3,0,0.5,0.1,0.7,0.3c0.6-0.2,1.2-0.3,1.8-0.3c3,0,5.5,2.5,5.5,5.5V25z"
-                  /></svg
-              ></a>
+                  /></svg>
+                </a>
               <!-- GITHUB -->
               <a href="https://github.com/DavidWaligora" target="_blank">
                 <svg
@@ -109,8 +110,8 @@
                         ></path>
                       </g>
                     </g>
-                  </g></svg
-              ></a>
+                  </g></svg>
+              </a>
               <!--Mail-->
               <a href="mailto:davidwaligora@hotmail.com" target="_blank">
                 <svg
@@ -228,14 +229,6 @@
                   required
                 ></textarea>
               </div>
-              <div style="display: none">
-                <label for="bottrap">Do not fill this out:</label>
-                <input
-                  type="text"
-                  id="bottrap"
-                  name="illegal"
-                  autocomplete="off"
-                />
               </div>
               <input
                 type="hidden"
@@ -243,8 +236,11 @@
                 value="r0989841@student.thomasmore.be"
               />
               <div class="form-footer">
-                <button class="form-btn" id="formbutton" type="submit">
-                  Submit
+                <button class="form-btn g-recaptcha" 
+                        data-sitekey="reCAPTCHA_site_key" 
+                        data-callback='onSubmit' 
+                        data-action='submit'>
+                        Submit
                 </button>
               </div>
             </form>
@@ -275,8 +271,8 @@
                    c0-0.6,0.4-1,1-1h4c0.6,0,1,0.4,1,1V25z M9,11c-1.7,0-3-1.3-3-3s1.3-3,3-3s3,1.3,3,3S10.7,11,9,11z M26,25c0,0.6-0.4,1-1,1h-3
                    c-0.6,0-1-0.4-1-1v-3.5v-1v-2c0-0.8-0.7-1.5-1.5-1.5S18,17.7,18,18.5v2v1V25c0,0.6-0.4,1-1,1h-3c-0.6,0-1-0.4-1-1V13
                    c0-0.6,0.4-1,1-1h4c0.3,0,0.5,0.1,0.7,0.3c0.6-0.2,1.2-0.3,1.8-0.3c3,0,5.5,2.5,5.5,5.5V25z"
-              /></svg
-          ></a>
+              /></svg>
+            </a>
           <!-- GITHUB -->
           <a href="https://github.com/DavidWaligora" target="_blank">
             <svg
@@ -300,8 +296,8 @@
                     ></path>
                   </g>
                 </g>
-              </g></svg
-          ></a>
+              </g></svg>
+            </a>
           <!--Mail-->
           <a href="mailto:davidwaligora@hotmail.com" target="_blank">
             <svg
@@ -325,5 +321,4 @@
   <script type="module" src="data/models/education.js"></script>
   <script type="module" src="data/models/skill.js"></script>
   <script type="module" src="app.js"></script>
-  <script type="module" src="form.js"></script>
 </html>

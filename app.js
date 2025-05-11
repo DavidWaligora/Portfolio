@@ -56,3 +56,8 @@ document.getElementById('myForm').addEventListener('keydown', function (event) {
     console.log(event)
   }
 });
+
+
+  export function onSubmit(token) {
+     document.getElementById("myForm").submit();
+   }
