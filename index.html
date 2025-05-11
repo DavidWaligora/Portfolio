@@ -32,20 +32,8 @@
 
     <!-- Higher resolution Android Chrome Icon -->
     <link rel="icon" href="src/android-chrome-512x512.png" sizes="512x512" />
-     <script src="https://www.google.com/recaptcha/api.js?render=6LcSCDYrAAAAAA8rlJl2qMhzeBjkOOp66U0D_fDq"></script>
-     
   </head>
-  <script>
 
-     grecaptcha.ready(function() {
-    document.querySelector('.form-btn').addEventListener('click', function(e) {
-      e.preventDefault(); // Prevent form submission
-      grecaptcha.execute('6LcSCDYrAAAAAO9878Tjiy881x-cRSP0-eT0FNsF', {action: 'submit'}).then(function(token) {
-        document.getElementById('myForm').submit();
-      });
-    });
-  });
-  </script>
   <body>
     <div id="headerBackground">
       <div id="headerContainer">
@@ -247,11 +235,8 @@
                 value="r0989841@student.thomasmore.be"
               />
               <div class="form-footer">
-                <button class="form-btn g-recaptcha" 
-                        data-sitekey="6LcSCDYrAAAAAO9878Tjiy881x-cRSP0-eT0FNsF" 
-                        data-callback='onSubmit' 
-                        data-action='submit'>
-                        Submit
+                <button class="form-btn" id="formbutton" type="submit">
+                  Submit
                 </button>
               </div>
             </form>
@@ -332,5 +317,5 @@
   <script type="module" src="data/models/education.js"></script>
   <script type="module" src="data/models/skill.js"></script>
   <script type="module" src="app.js"></script>
-
+  <script type="module" src="form.js"></script>
 </html>
