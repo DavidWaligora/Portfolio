@@ -32,13 +32,19 @@
 
     <!-- Higher resolution Android Chrome Icon -->
     <link rel="icon" href="src/android-chrome-512x512.png" sizes="512x512" />
-     <script src="https://www.google.com/recaptcha/api.js"></script>
+     <script src="https://www.google.com/recaptcha/api.js?render=6LcSCDYrAAAAAA8rlJl2qMhzeBjkOOp66U0D_fDq"></script>
      
   </head>
   <script>
-     function onSubmit(token) {
-       document.getElementById("myForm").submit();
-     }
+
+     grecaptcha.ready(function() {
+    document.querySelector('.form-btn').addEventListener('click', function(e) {
+      e.preventDefault(); // Prevent form submission
+      grecaptcha.execute('6LcSCDYrAAAAAA8rlJl2qMhzeBjkOOp66U0D_fDq', {action: 'submit'}).then(function(token) {
+        document.getElementById('myForm').submit();
+      });
+    });
+  });
   </script>
   <body>
     <div id="headerBackground">
