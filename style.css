@@ -58,7 +58,6 @@ body {
   flex-wrap: wrap; /* optional, allows wrapping if pills overflow */
   gap: 8px; /* optional, adds spacing between pills */
   margin-top: 12px;
-  margin-bottom: 32px;
 }
 
 #headerLogos {
@@ -69,6 +68,17 @@ body {
 
 .project .cardText {
   grid-row: span 3;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.cardLink{
+  display: inline-block;
+  color: white !important;
+  margin-top: 20px;
+}
+.cardLink:hover{
+  color: var(--accent-color) !important;
 }
 
 #page {

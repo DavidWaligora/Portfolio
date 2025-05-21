@@ -4,7 +4,7 @@
     "alt": "PartnerPortal",
     "title": "PartnerPortal",
     "description": "Built a .NET Blazor app from scratch to automate data processing and reduce manual work for GTT Automotive. Dealers and suppliers access vehicle data through a custom login, while admins validate data via Microsoft login. The app is designed for scalability, strong security, and a smooth user experience. This project gave me hands-on experience with .NET Blazor in a professional setting.",
-    "url": null,
+    "url": "https://paintballhappening.be/",
     "technologies": [
       ".NET Blazor",
       "C#",
@@ -30,7 +30,7 @@
     "alt": "cookBook",
     "title": "Full stack web/mobile application CookBook",
     "description": "A cross-platform recipe manager built with Next.js, Prisma, and React Native. Secure authentication using cookies (web) and Secure Storage (mobile). Efficient data fetching with TanStack Query and scalable backend via Vercel & NeonDB. Focused on performance, security, and a seamless user experience.",
-    "url": null,
+    "url": "https://cookbook-black.vercel.app/",
     "technologies": [
       "NextJs",
       "Prisma",

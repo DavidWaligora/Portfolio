@@ -94,7 +94,7 @@ export async function fillProjects() {
   const innerContent = document.createElement("div");
   innerContent.innerHTML = "<h2>Recent Work</h2><br>";
   const projects = await fetchProjects();
-  
+
   if (projects == null || projects.length == 0) {
     return;
   }
@@ -107,13 +107,14 @@ export async function fillProjects() {
       const imageDiv = document.createElement("div");
       imageDiv.className = "thumbnail";
 
-
       // add image
       const image = document.createElement("img");
-      image.src = projects[i].imageUrl ? `./images/${projects[i].imageUrl}` : "";
+      image.src = projects[i].imageUrl
+        ? `./images/${projects[i].imageUrl}`
+        : "";
       image.alt = projects[i].alt ?? "";
       imageDiv.appendChild(image);
-      
+
       // add image to div
       div.appendChild(imageDiv);
 
@@ -129,13 +130,22 @@ export async function fillProjects() {
       const descriptionParagraph = document.createElement("p");
       descriptionParagraph.innerHTML = projects[i].description;
       textDiv.appendChild(descriptionParagraph);
-      
+
       // add technologies
       const technologiesDiv = document.createElement("div");
       technologiesDiv.className = "technologyContainer";
       technologiesDiv.innerHTML += getTechnologies(projects[i].technologies);
       textDiv.appendChild(technologiesDiv);
-      
+
+      if (projects[i].url != null) {
+        const link = document.createElement("a");
+        link.href = projects[i].url;
+        link.target = "_blank";
+        link.innerHTML = "Check it out!";
+        link.className = "cardLink";
+        textDiv.appendChild(link);
+      }
+
       div.appendChild(textDiv);
       // add div to innercontent
       innerContent.innerHTML += div.outerHTML;
@@ -143,10 +153,10 @@ export async function fillProjects() {
       break;
     }
   }
-  const showMoreButton = document.createElement("h2")
-  showMoreButton.classList = "portfolioBtn"
-  showMoreButton.innerHTML = "Show more"
-  innerContent.appendChild(showMoreButton)
+  const showMoreButton = document.createElement("h2");
+  showMoreButton.classList = "portfolioBtn";
+  showMoreButton.innerHTML = "Show more";
+  innerContent.appendChild(showMoreButton);
 
   projectsDiv.appendChild(innerContent);
 }
@@ -176,13 +186,12 @@ const fetchProjects = async () => {
   return result;
 };
 
-
 export async function fillModalProjects() {
   const modalProjects = document.querySelector(".modal-projects");
-  modalProjects.innerHTML = ""
+  modalProjects.innerHTML = "";
   const innerContent = document.createElement("div");
   const projects = await fetchProjects();
-  
+
   if (projects == null || projects.length == 0) {
     return;
   }
@@ -197,10 +206,12 @@ export async function fillModalProjects() {
 
       // add image
       const image = document.createElement("img");
-      image.src = projects[i].imageUrl ? `./images/${projects[i].imageUrl}` : "";
+      image.src = projects[i].imageUrl
+        ? `./images/${projects[i].imageUrl}`
+        : "";
       image.alt = projects[i].alt ?? "";
       imageDiv.appendChild(image);
-      
+
       // add image to div
       div.appendChild(imageDiv);
 
@@ -216,13 +227,22 @@ export async function fillModalProjects() {
       const descriptionParagraph = document.createElement("p");
       descriptionParagraph.innerHTML = projects[i].description;
       textDiv.appendChild(descriptionParagraph);
-      
+
       // add technologies
       const technologiesDiv = document.createElement("div");
       technologiesDiv.className = "technologyContainer";
       technologiesDiv.innerHTML += getTechnologies(projects[i].technologies);
       textDiv.appendChild(technologiesDiv);
-      
+
+      if (projects[i].url != null) {
+        const link = document.createElement("a");
+        link.href = projects[i].url;
+        link.target = "_blank";
+        link.innerHTML = "Check it out!";
+        link.className = "cardLink";
+        textDiv.appendChild(link);
+      }
+
       div.appendChild(textDiv);
       // add div to innercontent
       innerContent.innerHTML += div.outerHTML;
