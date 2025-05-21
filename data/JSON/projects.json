@@ -85,6 +85,14 @@
     ]
   },
   {
+"imageUrl": "tiktaktoe.png",
+    "alt": "Tic Tac Toe",
+    "title": "Tic Tac Toe Custom Game",
+    "description": "Developed a Tic Tac Toe game using JavaScript, HTML, andTtailwind. The game features a user-friendly interface, allowing players to choose between two-player or single-player modes. In single-player mode, the game has a custom algorithm to provide a challenging experience. The project showcases my skills in JavaScript programming, DOM manipulation, and event handling.",
+    "url": "/projects/tictactoe",
+    "technologies": ["JavaScript", "HTML", "CSS", "Tailwind", "DOM"]
+  },
+  {
     "imageUrl": "puppeteer.png",
     "alt": "Puppeteer",
     "title": "Puppeteer Web Scraping",
