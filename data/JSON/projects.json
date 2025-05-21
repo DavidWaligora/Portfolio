@@ -4,7 +4,7 @@
     "alt": "PartnerPortal",
     "title": "PartnerPortal",
     "description": "Built a .NET Blazor app from scratch to automate data processing and reduce manual work for GTT Automotive. Dealers and suppliers access vehicle data through a custom login, while admins validate data via Microsoft login. The app is designed for scalability, strong security, and a smooth user experience. This project gave me hands-on experience with .NET Blazor in a professional setting.",
-    "url": "https://paintballhappening.be/",
+    "url": null,
     "technologies": [
       ".NET Blazor",
       "C#",
@@ -22,7 +22,7 @@
     "alt": "paintballHappening",
     "title": "PaintballHappening",
     "description": "In a team of 4 we worked out a new website for Paintball Happening, a small KMO. The goal was to find a small kmo to help. We made a website with a reservation system, and a payment system. The website is made with wordpress and plugins. The newly made website is user friendly and easy to maintain for the owner. I created several pages and consistently met project deadlines.",
-    "url": null,
+    "url": "https://paintballhappening.be/",
     "technologies": ["Wordpress", "HTML", "CSS"]
   },
   {
