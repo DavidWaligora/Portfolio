@@ -493,3 +493,38 @@ footer .social a:hover svg {
 .projects-modal-open {
   overflow: hidden;
 }
+
+
+.video{
+  border-radius: 20px;
+  float: right;
+}
+
+.aboutRow {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.leftAboutColum,
+.rightAboutColum {
+  box-sizing: border-box;
+}
+
+
+/* Responsive: stack columns on small screens */
+@media (max-width: 1000px) {
+  .aboutRow {
+    grid-template-columns: 100%;
+    padding: 10px;
+  }
+
+  .rightAboutColumb {
+    display: flex;
+    justify-content: center;
+  }
+}
