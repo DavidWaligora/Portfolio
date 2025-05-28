@@ -53,7 +53,6 @@ window.onclick = function(event) {
 document.getElementById('myForm').addEventListener('keydown', function (event) {
   if (event.key === 'Enter') {
     event.preventDefault(); // Stop form from submitting
-    console.log(event)
   }
 });
 
