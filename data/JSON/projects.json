@@ -55,7 +55,7 @@
   {
     "imageUrl": "davidwaligora.com.png",
     "alt": "QRCode",
-    "title": "QR Code Generator",
+    "title": "URL QR Code Generator",
     "description": "I created a simple QR code generator using C# and the QRCoder NuGet package. It’s a console application that prompts the user to input a URL, then generates a QR code and saves it as a PNG file in the Downloads folder. This project was made for a friend who needed a quick QR code, and it also served as a fun opportunity to practice C# and explore QR code generation.",
     "url": "https://github.com/DavidWaligora/QRGenerator",
     "technologies": ["C#", "QR Code", "Console Application", "QRCoder"]
