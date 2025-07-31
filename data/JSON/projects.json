@@ -88,7 +88,7 @@
   },
   {
     "imageUrl": "mauiWedstrijden.png",
-    "alt": null,
+    "alt": "Maui match application",
     "title": "Maui match application",
     "description": "In a team of 2, We worked on a .NET Maui application, we had to add 5 features each to the application. I did debugging as there were some bugs in the application. Also i made it possible to receive, create, delete, update a match / matches from the database by creating repositories and models. I also added a extra page where i got data from a api and displayed it in a list. Here i used a deserializer to convert the json data to a model. ",
     "url": null,
