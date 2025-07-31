@@ -18,8 +18,8 @@
     ]
   },
   {
-    "imageUrl": null,
-    "alt": null,
+    "imageUrl": "planthumiditysensors.jpg",
+    "alt": "Image of raspberry pi connected to breadboard and sensor in plant pot with jumper wires.",
     "title": "Plant Humidity Monitor",
     "description": "For my first project using Python and a Raspberry Pi, I built a soil humidity monitoring system to track the moisture levels of my plants. Using a Raspberry Pi Zero 2 W, I connected soil sensors with jumper wires and a breadboard, and wrote Python code to read and log the data through the GPIO pins. I also created a basic local network API to access the data remotely. It was a fun and challenging introduction to hardware and software integration, and I learned a lot about sensors, GPIO, and Python. As a next step, I'm planning to develop an Android app that connects to the API for easier monitoring and control.00",
     "url": null,
@@ -34,7 +34,7 @@
     "technologies": ["Wordpress", "HTML", "CSS"]
   },
   {
-    "imageUrl": "cookBook.png",
+    "imageUrl": "cookBook.jpg",
     "alt": "cookBook",
     "title": "Full stack web/mobile application CookBook",
     "description": "A cross-platform recipe manager built with Next.js, Prisma, and React Native. Secure authentication using cookies (web) and Secure Storage (mobile). Efficient data fetching with TanStack Query and scalable backend via Vercel & NeonDB. Focused on performance, security, and a seamless user experience.",
@@ -142,7 +142,7 @@
     "technologies": ["MongoDB", "ERD", "Database Design"]
   },
   {
-    "imageUrl": "javascriptTask.png",
+    "imageUrl": "javascriptTask.jpg",
     "alt": "Image with programmer",
     "title": "JavaScript Task Manager",
     "description": "Created a dynamic task list app using advanced JS features like DOM manipulation, AJAX, and local storage.",
@@ -158,7 +158,7 @@
     "technologies": ["JavaScript", "Bootstrap", "Form Validation"]
   },
   {
-    "imageUrl": "moderniseringWebsite.png",
+    "imageUrl": "moderniseringWebsite.jpg",
     "alt": "VoorbeeldWebsite",
     "title": "SportFusion Camp Modernization",
     "description": "Redesigned an old website using Bootstrap for a modern, responsive look. Maintained original content structure.",
