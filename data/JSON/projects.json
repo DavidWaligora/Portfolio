@@ -21,7 +21,7 @@
     "imageUrl": "planthumiditysensors.jpg",
     "alt": "Image of raspberry pi connected to breadboard and sensor in plant pot with jumper wires.",
     "title": "Plant Humidity Monitor",
-    "description": "For my first project using Python and a Raspberry Pi, I built a soil humidity monitoring system to track the moisture levels of my plants. Using a Raspberry Pi Zero 2 W, I connected soil sensors with jumper wires and a breadboard, and wrote Python code to read and log the data through the GPIO pins. I also created a basic local network API to access the data remotely. It was a fun and challenging introduction to hardware and software integration, and I learned a lot about sensors, GPIO, and Python. As a next step, I'm planning to develop an Android app that connects to the API for easier monitoring and control.00",
+    "description": "For my first project using Python and a Raspberry Pi, I built a soil humidity monitoring system to track the moisture levels of my plants. Using a Raspberry Pi Zero 2 W, I connected soil sensors with jumper wires and a breadboard, and wrote Python code to read and log the data through the GPIO pins. I also created a basic local network API to access the data remotely. It was a fun and challenging introduction to hardware and software integration, and I learned a lot about sensors, GPIO, and Python. As a next step, I'm planning to develop an Android app that connects to the API for easier monitoring and control.",
     "url": "https://github.com/DavidWaligora/PlantHumidity",
     "technologies": ["Python", "Raspberry Pi Zero 2wh", "Soil humidity sensors", "GPIO", "API", "SQLite", "Flask"]
   },
