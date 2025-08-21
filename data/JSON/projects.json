@@ -56,7 +56,7 @@
     "alt": "Website met links naar informatie",
     "title": "Link aggregator website",
     "description": "I created a link aggregator website using HeroUI and Next.js. The site shows links to various resources, such as my GitHub, LinkedIn, Website, Mail. It’s a simple yet effective way to share all my important links in one place. The project helped me practice Frontend Development skills, and it’s a great addition to my portfolio. I also explored Framer Motion more, which enhanced my understanding of animations in modern web development. Additionally, I implemented CI/CD pipelines to deploy the site on GitHub Pages, improving my experience with deployment workflows and automation.",
-    "url": "davidwaligora.github.io/LinkTo",
+    "url": "https://davidwaligora.github.io/LinkTo",
     "technologies": ["Next.js", "HeroUI", "HTML", "CSS", "JavaScript", "Tailwind", "GitHub Pages", "CI/CD", "Framer Motion"]
 
   },
