@@ -260,12 +260,14 @@ section {
 
 #contact {
   text-align: center;
+  margin-bottom: 0;
 }
 
 #contact p {
   font-size: var(--font-size-lg);
   font-weight: 200;
   line-height: 1.4;
+  
   color: var(--text-color);
 }
 
