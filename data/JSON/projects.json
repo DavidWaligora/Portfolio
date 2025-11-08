@@ -1,5 +1,15 @@
 [
   {
+    "imageUrl": "plugin_php.png",
+    "alt": "plugin_php",
+    "title": "Plugin - Development with php",
+    "description": "Over a weekend, I learned the fundamentals of WordPress plugin development. I'd worked with PHP before, but I wasn't familiar with its best practices. I discovered how plugins are built, how they integrate with WordPress, and how to display data cleanly using PHP. With Composer, I wrote object-oriented code that kept things organized and made the plugins work exactly as I envisioned.",
+    "url": null,
+    "technologies": [
+      "PHP", "Wordpress", "Composer", "OOP"
+    ]
+  },
+  {
     "imageUrl": "partnerPortal.png",
     "alt": "PartnerPortal",
     "title": "PartnerPortal",
