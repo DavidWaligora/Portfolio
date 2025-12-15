@@ -48,7 +48,7 @@
     "alt": "cookBook",
     "title": "Full stack web/mobile application CookBook",
     "description": "A cross-platform recipe manager built with Next.js, Prisma, and React Native. Secure authentication using cookies (web) and Secure Storage (mobile). Efficient data fetching with TanStack Query and scalable backend via Vercel & NeonDB. Focused on performance, security, and a seamless user experience.",
-    "url": "https://cookbook-black.vercel.app/",
+    "url": null,
     "technologies": [
       "NextJs",
       "Prisma",
